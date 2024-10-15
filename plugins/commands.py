@@ -25,7 +25,7 @@ async def start(client, message):
     await message.react(emoji="🔥")
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+YPexbDlB4ZRjMmNl'')
+            InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+YPexbDlB4ZRjMmNl')
         ],[
             InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/zooissuction"),
             InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/zooistore')
