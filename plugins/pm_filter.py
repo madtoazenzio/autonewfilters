@@ -1953,7 +1953,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+YPexbDlB4ZRjMmNl')
             ],[
                 InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
                 InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇs', url=GRP_LNK)
@@ -1967,7 +1967,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⤬ Gᴏ Tᴏ Mʏ Gʀᴏᴜᴘ ⤬', url=f'https://t.me/+YPexbDlB4ZRjMmNl')
             ],[
                 InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
                 InlineKeyboardButton('⌬ Uᴘᴅᴀᴛᴇsss', url=GRP_LNK)
